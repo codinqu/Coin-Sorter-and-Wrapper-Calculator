@@ -21,9 +21,14 @@ let wrapperAmount = [50, 40, 50, 40];
 //Calculations 
 //calculating the final value of coins together 
 let finalValue = (totalValue[0] + totalValue[1] + totalValue[2] + totalValue[3]);
+//calculating the total number of coins
 
 console.log(`Final value amount: ${finalValue}`);
 //answer for final value amount = 123
+
+let totalMoney = ("$22.53")
+console.log(`Total dollar amount: ${totalMoney}`);
+//total dollar amount.
 
 //End of first calculations
 
