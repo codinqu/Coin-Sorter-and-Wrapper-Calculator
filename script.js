@@ -22,7 +22,7 @@ let wrapperAmount = [50, 40, 50, 40];
 //calculating the final value of coins together 
 let finalValue = (totalValue[0] + totalValue[1] + totalValue[2] + totalValue[3]);
 
-console.log(finalValue);
+console.log(`Final value amount: ${finalValue}`);
 //answer for final value amount = 123
 
 //End of first calculations
@@ -39,12 +39,12 @@ let dimes = (coinAmount[0] / wrapperAmount[2]);
 let quaters = (coinAmount[0] / wrapperAmount[3]);
 
 let wrapsFilled = [6, 7.5, 6, 7.5];
-console.log(wrapsFilled);
+console.log(`Wraps filled for each type of coin: ${wrapsFilled}`);
 //answer: wrapsFilled = [6, 7.5, 6, 7.5]
 
 //total wrappers filled in general 
 let totalWrappers = (wrapsFilled[0] + wrapsFilled[1] + wrapsFilled[2] + wrapsFilled[3]);
-console.log(totalWrappers);
+console.log(`Total wrappers filled: ${totalWrappers}`);
 //answer: 27
 
 //End of wrapper calculations
@@ -56,7 +56,7 @@ console.log(totalWrappers);
 //console.log(# % #);
 
 let remainCoins = (300 % 27);
-console.log(remainCoins);
+console.log(`Remaining coins: ${remainCoins}`);
 //answer: 3
 
 //End of modulus calculation.
